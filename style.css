@@ -1,0 +1,104 @@
+/* ===== RESET E BASE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== CABEÇALHO ===== */
+header {
+    background-color:#6D4C41; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff9800; 
+}
+
+/* ===== TÍTULOS ===== */
+h2 {
+    margin: 25px 0;
+    text-align: center;
+    color: #1b5e20;
+}
+
+/* ===== ÁREAS DE CONTEÚDO ===== */
+.principais,
+.motos,
+.equipamentos,
+.tecnicas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #e0e0e0; 
+}
+
+/* ===== CARDS ===== */
+.boxpr {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.boxpr img {
+    width: 100%;
+    display: block;
+}
+
+.boxpr:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #222; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 15px;
+    border-top: 3px solid #1b5e20; 
+}
+
+a {
+    color: green ;
+    text-decoration: none; 
+}
+
+a:hover {
+    color:#ff9800; 
+}
